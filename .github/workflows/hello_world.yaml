@@ -6,8 +6,8 @@ on:
 jobs:
   first-hello-world-jobs:
    runs-on: ubuntu-latest
-   steps:
+    steps:
      -name: Checkout code
-      uses: actions/checkout@v3
-     -name: Print message
-      run: echo "Hello world GA testing"
+       uses:actions/checkout@v3
+      -name:Print message
+      run:echo "Hello world GA testing"
